@@ -17,15 +17,7 @@ body {
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
-
-
-
-/* Header */
-header {
-    background-color:lightcoral ;
-}
-
-h1 {
+h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
 }
 /* Main content */
@@ -35,13 +27,35 @@ main {
     flex: 1 0 auto;
 }
 
+
+/* Header */
+header {
+    background-color:lightcoral ;
+}
+
+
+
 /* Hero section */
 #hero {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position:relative;
 }
-
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+#cover-text >h2, #cover-text >h3 {
+    color: #ffff;
+}
 /* Footer */
 footer {
     background-color: orange;
