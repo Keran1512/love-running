@@ -19,6 +19,10 @@ body {
 }
 h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    flex-direction:column;
+    letter-spacing: 2px;
+    color: #252525;
 }
 /* Main content */
 main {
@@ -30,8 +34,17 @@ main {
 
 /* Header */
 header {
-    background-color:lightcoral ;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
+
 
 
 
@@ -46,14 +59,14 @@ header {
     /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(241, 109, 107, .7);
     font-size: 130%;
-    position: absolute;
+    position:absolute;
     bottom: 30px;
     width: 80%;
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
 }
-#cover-text >h2, #cover-text >h3 {
+#cover-text > h2, #cover-text > h3 {
     color: #ffff;
 }
 /* Footer */
@@ -61,3 +74,29 @@ footer {
     background-color: orange;
 }
 
+/* Hero */
+#cover-text {
+    width: 300px;
+    right: 50px;
+}
+@media screen and { min-width: 768px;}
+    nav {
+        display:block;
+        position: relative;
+        box-shadow: none;
+        width:fit-content;
+        padding-right: 1rem;
+}
+
+menu {
+    display: flex;
+}
+
+menu {
+    li
+    padding-left: 1rem;
+}
+
+.nav-toggle-label {
+    display: none
+}
