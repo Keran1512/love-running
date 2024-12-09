@@ -100,3 +100,14 @@ menu {
 .nav-toggle-label {
     display: none
 }
+
+#reason {
+    margin: 20px; auto;
+
+}
+
+#benefits {
+    margin: 20px; 
+    padding: 0 20px;
+    hr: border-top: 1px; solid #3a3a3a; margin: 5px 0;
+}
