@@ -24,11 +24,15 @@ h1, h2, h3 {
     letter-spacing: 2px;
     color: #252525;
 }
+
+h2{ bottom margin: 20px; center}
+
 /* Main content */
 main {
     
     /* Make main element take up any surplus space to push header down */
     flex: 1 0 auto;
+    header row: border-top: 1px; solid #3a3a3a; margin: 5px 0;
 }
 
 
@@ -101,13 +105,33 @@ menu {
     display: none
 }
 
-#reason {
+#reasons {
     margin: 20px; auto;
+    width: 90%;
 
 }
 
-#benefits {
-    margin: 20px; 
+#reasons h2 {margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
     padding: 0 20px;
-    hr: border-top: 1px; solid #3a3a3a; margin: 5px 0;
 }
+  
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+</body>
+
+</html>
