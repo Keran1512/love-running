@@ -25,14 +25,14 @@ h1, h2, h3 {
     color: #252525;
 }
 
-h2{ bottom margin: 20px; center}
+h2{ bottom-margin: 20px; center;}
 
 /* Main content */
 main {
     
     /* Make main element take up any surplus space to push header down */
     flex: 1 0 auto;
-    header row: border-top: 1px; solid #3a3a3a; margin: 5px 0;
+    header-row: border-top: 1px; solid #3a3a3a; margin: 5px 0;
 }
 
 
