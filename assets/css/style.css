@@ -25,6 +25,10 @@ h1, h2, h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 h2{ bottom-margin: 20px; center;}
 
 /* Main content */
@@ -170,9 +174,6 @@ hr {
     flex-grow: 1;
     /* Creates a grid of meetup times over the background image */
     border: 2px solid white;
-
-
-
 }
 #times h3 {
     /* Override the heading colour set in general styles */
